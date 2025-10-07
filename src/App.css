@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #1a1a1a;
+}
+
+.header {
+  text-align: center;
+  padding: 20px;
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+}
+
+.main{
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  gap: 20px;
+}
+
+.new{
+  padding: 30px;
+  gap: 20px;
+
+}
+
+.content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 200px);
+  gap: 40px;
+  justify-content: center;
+  padding: 30px;
+}
+
+.placeholder {
+  width: 100%;
+  height: 100%;
+  color: #bbb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+}
+
+.footer {
+  color: white;
+  text-align: right;
+  font-size: 1em;
+  margin: 2em;
+}
